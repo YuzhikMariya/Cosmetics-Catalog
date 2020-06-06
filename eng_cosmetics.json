@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "name": "Mascara Cabaret Premiere",
+        "description": "The queen of budget carcasses, Cabaret has become a bestseller from Vivienne Sabo. Unlike its predecessor, the Premiere version has 5 shades (black, brown, turquoise, purple, blue). The product gives a noticeable elongation and volume, while the mascara can be layered with high quality - then it is realistic to achieve the stage volume declared by the manufacturer. The brush is small, plastic, with a short dense bristle.",
+        "brend": "Vivienne Sabo",
+        "cost": 23.50,
+        "urlToImage": "mascara",
+        "urlToVideo": " "
+    },
+    {
+          "id": 2,
+          "name": "Shadows La Palette Nude",
+          "description": "In this palette - immediately ten perfectly matched shades for each other to create a nude makeup. Firstly, they are very beautiful, secondly, they combine perfectly with each other, and thirdly, they are suitable not only for daytime makeup, but also for an evening look. The pigment does not crumble, and the saturation can be adjusted independently when applied.",
+          "brend": "L'Oreal Paris",
+          "cost": 25.00,
+          "urlToImage": "shadows",
+          "urlToVideo": " "
+      },
+      {
+          "id": 3,
+          "name": "Powder Loose Powder",
+          "description": "Loose Powder Loose Powder is perfect for owners of oily skin. Firstly, it reliably hides imperfections, secondly, it eliminates oily sheen, and thirdly, it slightly illuminates the skin. The result is a persistent matte effect throughout the day. In the photo your skin will look perfect: in the pictures the skin will not require either photoshop or instagram filters, it will look even and shine a little. To create a translucent coating, use a fluffy natural brush to apply.",
+          "brend": "Giorgio Armani",
+          "cost": 27.50,
+          "urlToImage": "powder",
+          "urlToVideo": "powder"
+      },
+      {
+          "id": 4,
+          "name": "Tone cream Luminous",
+          "description": "A very light foundation that preserves the maximum naturalness of the makeup and gives it a delicate satin glow. The cream has a weightless texture, is easily distributed, literally melting on the face. It is very pleasant to wear, it does not feel on the skin, it is not lubricated, it is quite resistant. It does not emphasize pores, peeling, wrinkles, on the contrary, significantly smoothes them due to high-quality light scattering and caring components. It hides redness, enlarged pores and other minor defects, but it’s not capable of anything more. An excellent solution for dry and normal skin without obvious imperfections.",
+          "brend": "DIVAGE",
+          "cost": 22.50,
+          "urlToImage": "ton",
+          "urlToVideo": "cream"
+      },
+      {
+          "id": 5,
+          "name": "Powder Fit Me!",
+          "description": "This powder from Maybelline New York, when applied, literally merges with the skin tone: it mattifies, conceals pores and evens out the tone. Under the cover of Fit Me! not only powder, but also a convenient mirror and sponge. Use it in order to distribute the product over the skin - pay special attention to the hairline, the wings of the nose and the lower contour of the face.",
+          "brend": "Maybelline",
+          "cost": 12.50,
+          "urlToImage": "powder2",
+          "urlToVideo": " "
+      },
+      {
+          "id": 6,
+          "name": "Mascara",
+          "description": "Mascara with argan oil is designed to give a royal volume and the effect of eyelash multiplication. The manufacturer assures that the special composition of the product with vegetable waxes will strengthen the hairs and provide them with deep nutrition. In order to see the maximum abilities of this mascara, make-up artists of the company advise to apply Luxury Royal volume first on the tips of the eyelashes, and then dye them along the entire length.",
+          "brend": "Belita",
+          "cost": 12.50,
+          "urlToImage": "",
+          "urlToVideo": " "
+      },
+      {
+          "id": 7,
+          "name": "Shadows Doll Eyes Palette",
+          "description": "Different shades of purple were collected in a five-color palette of shadows from Lancome. Complete with shadows - two branded applicators: with their help, you can control the degree of shading and color intensity, so makeup can turn out both natural day and bright evening. Apply the shadows in a dry way to create a slight “haze” on your eyes, or wet - then they will acquire a creamy texture, the color will become more saturated and, last but not least, persistent.",
+          "brend": "Lancome",
+          "cost": 23.50,
+          "urlToImage": "shadows2",
+          "urlToVideo": " "
+      },
+      {
+          "id": 8,
+          "name": "Pomade Rouge Interdit Shine",
+          "description": "Givenchy Rouge Interdit Shine, we consider one of the best universal lipsticks for the unpredictability of 36 Rose Sensation. The peculiarity of this lipstick is that, despite how bright it looks, it only emphasizes the natural shade of the lips. In fact, she is modest enough to be considered everyday. In addition, Givenchy lipsticks are distinguished by the absolutely amazing design of the case, which is admirable. Despite the tenderness, lightness and translucent effect characteristic of lip glosses, the lipstick is very persistent and the pigment remains on the lips for a long time.",
+          "brend": "Givenchy",
+          "cost": 20.50,
+          "urlToImage": "pomade",
+          "urlToVideo": " "
+      },
+      {
+          "id": 9,
+          "name": "Tone cream Healthy Mix Serum Gel",
+          "description": "The texture of the Healthy Mix Serum Gel foundation, contrary to its name, is not gel, but cream, light, slightly watery, with a velvety finish. It is perfectly distributed over the skin, evens out its relief and gives a natural luminous coating. It does not clog pores, does not emphasize wrinkles and folds, but the cream cannot cope with serious flaws. Durability is average. It is more suitable for dry and normal skin, although for oily skin it is also not bad - but always in combination with powder, since it does not dull the face. The volume of the bottle is 30 ml.",
+          "brend": "Bourjois",
+          "cost": 28.50,
+          "urlToImage": "",
+          "urlToVideo": " "
+      },
+      {
+          "id": 10,
+          "name": "Pomade Сolor Sensational",
+          "description": "The texture of the lipstick is delicate, sliding, well pigmented. She holds quite firmly, does not strip, beautifully emphasizes the relief. It is worn comfortably, does not float and does not spread. It is washed off remarkably. But, like any matte lipstick, Color Sensational can highlight peeling on the lips.",
+          "brend": "Мaybelline",
+          "cost": 19.50,
+          "urlToImage": "",
+          "urlToVideo": " "
+      },
+      {
+          "id": 11,
+          "name": "Liner Tatoo Liner",
+          "description": "Universal gel eyeliner, which is great for drawing arrows, as well as for painting the inner eyelid and intermaxillary. Thanks to the melting gel texture, it instantly transmits a saturated color to the skin, it is well layered, at the same time it quickly sets and does not imprint on the eyelid. However, the same gel texture does not allow drawing thin tails of arrows. The coating is very resistant to moisture and can only be removed with special removers.",
+          "brend": "Maybelline",
+          "cost": 11.50,
+          "urlToImage": "liner",
+          "urlToVideo": " "
+      },
+      {
+          "id": 12,
+          "name": "Blush Creme Puff Blush",
+          "description": "Last year's novelty, cream baked blush from Max Factor, contain small multi-tone pigments that create the effect of smooth, healthy and glowing skin. One of the most sought-after makeup artists in the world, Pat McGrath, who leads the creation of Max Factor color trends, recommends applying them with gentle circular movements, adjusting to the shape of the face.",
+          "brend": "Max Factor",
+          "cost": 10.50,
+          "urlToImage": "blush",
+          "urlToVideo": "powder"
+      },
+      {
+          "id": 13,
+          "name": "Highlighther FACE STUDIO",
+          "description": "Maybelline Face Studio sculptor pencil nourishes the skin with radiance. You can use it for daily makeup to highlight facial features. Moisturizing reflective microparticles are easy to apply, merge with the skin and give it a fresh, rested look. It is applied with a light movement and quickly gives a radiant appearance. Keeps on skin for a long time and does not flow. Finish without oily sheen. Available in a convenient stick form.",
+          "brend": "Maybelline",
+          "cost": 23.50,
+          "urlToImage": "highlighther",
+          "urlToVideo": " "
+      },
+      {
+          "id": 14,
+          "name": "Mascara Twist Up The Volume",
+          "description": "The original TWIST 2-in-1 mascara with twist brush makes two-step application possible: first lengthening and separation, then volume. Coal black pigment gives maximum expression to the look. Mascara meets all the requirements for a quality product: it stains, separates and holds fast all day without eye irritation. With excessive application, it still sticks together. It contains jojoba oil, beeswax and carnauba wax, which means additional care for eyelashes.",
+          "brend": "Bourjois",
+          "cost": 21.50,
+          "urlToImage": "",
+          "urlToVideo": " "
+      },
+      {
+          "id": 15,
+          "name": "Pomade Hydra Extreme",
+          "description": "Hydra Extreme lipsticks are made on the basis of a special formula with collagen and allantoin, which give lips elasticity, smoothness and hydration, and the SPF15 sunscreen protects them from the harmful effects of ultraviolet radiation and early wilting. The product is offered in 24 current shades. To add extra sensuality to the look, Maybelline make-up artists recommend applying lipstick more intensively to the middle of the lower lip.",
+          "brend": "Maybelline",
+          "cost": 30.50,
+          "urlToImage": "",
+          "urlToVideo": " "
+      }
+  ]

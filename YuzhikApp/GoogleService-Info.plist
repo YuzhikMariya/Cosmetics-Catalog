@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>239308714227-1r6i2cch5rjc5lb8n06ckb5ahhlf552n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.239308714227-1r6i2cch5rjc5lb8n06ckb5ahhlf552n</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>239308714227-8hp9tshjq3bqoulrf8seot3rq6h8mi02.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBADXRIGMptP7EmR6puraPKauGa32dEa38</string>
+	<key>GCM_SENDER_ID</key>
+	<string>239308714227</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>BSUIR.YuzhikApp</string>
+	<key>PROJECT_ID</key>
+	<string>cosmeticscatalog</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cosmeticscatalog.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:239308714227:ios:0ecd5d155a63a8edfe0786</string>
+	<key>DATABASE_URL</key>
+	<string>https://cosmeticscatalog.firebaseio.com</string>
+</dict>
+</plist>

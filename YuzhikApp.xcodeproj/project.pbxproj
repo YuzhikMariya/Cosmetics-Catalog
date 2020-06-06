@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840DB7A623EB7246009F209F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DB7A523EB7246009F209F /* AppDelegate.swift */; };
+		840DB7A823EB7246009F209F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DB7A723EB7246009F209F /* SceneDelegate.swift */; };
+		840DB7AC23EB7246009F209F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DB7AB23EB7246009F209F /* SecondViewController.swift */; };
+		840DB7AF23EB7246009F209F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840DB7AD23EB7246009F209F /* Main.storyboard */; };
+		840DB7B123EB7253009F209F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840DB7B023EB7253009F209F /* Assets.xcassets */; };
+		840DB7B423EB7253009F209F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840DB7B223EB7253009F209F /* LaunchScreen.storyboard */; };
+		842056CB240E6C7B00CFB4D9 /* eng_cosmetics.json in Resources */ = {isa = PBXBuildFile; fileRef = 842056CA240E6C7B00CFB4D9 /* eng_cosmetics.json */; };
+		842346B3240D42A300033D4D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842346B2240D42A300033D4D /* Settings.swift */; };
+		842346B5240D453500033D4D /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 842346B4240D453500033D4D /* config.json */; };
+		8481474123F9A8B5008D8159 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481474023F9A8B5008D8159 /* FirstViewController.swift */; };
+		8481474323FA1535008D8159 /* cream.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8481474223FA1535008D8159 /* cream.mp4 */; };
+		8481474523FA1907008D8159 /* powder.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8481474423FA1907008D8159 /* powder.mp4 */; };
+		8481474723FA1920008D8159 /* oil.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8481474623FA1920008D8159 /* oil.mp4 */; };
+		848C637223FDA703002F7EE1 /* ru_cosmetics.json in Resources */ = {isa = PBXBuildFile; fileRef = 848C637123FDA703002F7EE1 /* ru_cosmetics.json */; };
+		848EB9462475ED6E00BD05FD /* AddCosmeticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EB9452475ED6E00BD05FD /* AddCosmeticsViewController.swift */; };
+		8498EE1C2476B22300079848 /* temp.json in Resources */ = {isa = PBXBuildFile; fileRef = 8498EE1B2476B22300079848 /* temp.json */; };
+		8498EE1E2476E0F300079848 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8498EE1D2476E0F300079848 /* GoogleService-Info.plist */; };
+		8498EE1F2476E22900079848 /* Pods_YuzhikApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79F57B8C4D95DD4FCF4E870 /* Pods_YuzhikApp.framework */; };
+		8498EE202476E22900079848 /* Pods_YuzhikApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F79F57B8C4D95DD4FCF4E870 /* Pods_YuzhikApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		849983F023FCAE5A00DA515D /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849983EF23FCAE5A00DA515D /* FilterViewController.swift */; };
+		84B1275D23F89AED00FFCCC2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1275C23F89AED00FFCCC2 /* TableViewController.swift */; };
+		84B1275F23F89B5A00FFCCC2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1275E23F89B5A00FFCCC2 /* Model.swift */; };
+		84B1276323F8B9ED00FFCCC2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1276223F8B9ED00FFCCC2 /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8498EE212476E22900079848 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8498EE202476E22900079848 /* Pods_YuzhikApp.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		39F1BD9511C9CF23A65A8AC8 /* Pods-YuzhikApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuzhikApp.debug.xcconfig"; path = "Target Support Files/Pods-YuzhikApp/Pods-YuzhikApp.debug.xcconfig"; sourceTree = "<group>"; };
+		840DB7A223EB7246009F209F /* YuzhikApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuzhikApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840DB7A523EB7246009F209F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		840DB7A723EB7246009F209F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		840DB7AB23EB7246009F209F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		840DB7AE23EB7246009F209F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		840DB7B023EB7253009F209F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840DB7B323EB7253009F209F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		840DB7B523EB7253009F209F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842056CA240E6C7B00CFB4D9 /* eng_cosmetics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = eng_cosmetics.json; sourceTree = "<group>"; };
+		842346B2240D42A300033D4D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		842346B4240D453500033D4D /* config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		8481474023F9A8B5008D8159 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		8481474223FA1535008D8159 /* cream.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cream.mp4; sourceTree = "<group>"; };
+		8481474423FA1907008D8159 /* powder.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = powder.mp4; sourceTree = "<group>"; };
+		8481474623FA1920008D8159 /* oil.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = oil.mp4; sourceTree = "<group>"; };
+		848C637123FDA703002F7EE1 /* ru_cosmetics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ru_cosmetics.json; sourceTree = "<group>"; };
+		848EB9452475ED6E00BD05FD /* AddCosmeticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCosmeticsViewController.swift; sourceTree = "<group>"; };
+		8498EE1B2476B22300079848 /* temp.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = temp.json; sourceTree = "<group>"; };
+		8498EE1D2476E0F300079848 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		849983EF23FCAE5A00DA515D /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		84B1275C23F89AED00FFCCC2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		84B1275E23F89B5A00FFCCC2 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		84B1276223F8B9ED00FFCCC2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F79F57B8C4D95DD4FCF4E870 /* Pods_YuzhikApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YuzhikApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD43E60CE25EEAA2822C53C6 /* Pods-YuzhikApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuzhikApp.release.xcconfig"; path = "Target Support Files/Pods-YuzhikApp/Pods-YuzhikApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840DB79F23EB7246009F209F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8498EE1F2476E22900079848 /* Pods_YuzhikApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08002BD7DDC1C3D966AF1E0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39F1BD9511C9CF23A65A8AC8 /* Pods-YuzhikApp.debug.xcconfig */,
+				FD43E60CE25EEAA2822C53C6 /* Pods-YuzhikApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		78964C8FDBFE7091058C2EBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F79F57B8C4D95DD4FCF4E870 /* Pods_YuzhikApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		840DB79923EB7245009F209F = {
+			isa = PBXGroup;
+			children = (
+				8498EE1B2476B22300079848 /* temp.json */,
+				842056CA240E6C7B00CFB4D9 /* eng_cosmetics.json */,
+				842346B4240D453500033D4D /* config.json */,
+				848C637123FDA703002F7EE1 /* ru_cosmetics.json */,
+				8481474623FA1920008D8159 /* oil.mp4 */,
+				8481474423FA1907008D8159 /* powder.mp4 */,
+				8481474223FA1535008D8159 /* cream.mp4 */,
+				840DB7A423EB7246009F209F /* YuzhikApp */,
+				840DB7A323EB7246009F209F /* Products */,
+				08002BD7DDC1C3D966AF1E0D /* Pods */,
+				78964C8FDBFE7091058C2EBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		840DB7A323EB7246009F209F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840DB7A223EB7246009F209F /* YuzhikApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840DB7A423EB7246009F209F /* YuzhikApp */ = {
+			isa = PBXGroup;
+			children = (
+				840DB7A523EB7246009F209F /* AppDelegate.swift */,
+				840DB7A723EB7246009F209F /* SceneDelegate.swift */,
+				84B1276223F8B9ED00FFCCC2 /* TableViewCell.swift */,
+				849983EF23FCAE5A00DA515D /* FilterViewController.swift */,
+				8498EE1D2476E0F300079848 /* GoogleService-Info.plist */,
+				842346B2240D42A300033D4D /* Settings.swift */,
+				84B1275E23F89B5A00FFCCC2 /* Model.swift */,
+				84B1275C23F89AED00FFCCC2 /* TableViewController.swift */,
+				8481474023F9A8B5008D8159 /* FirstViewController.swift */,
+				840DB7AB23EB7246009F209F /* SecondViewController.swift */,
+				840DB7AD23EB7246009F209F /* Main.storyboard */,
+				840DB7B023EB7253009F209F /* Assets.xcassets */,
+				840DB7B223EB7253009F209F /* LaunchScreen.storyboard */,
+				840DB7B523EB7253009F209F /* Info.plist */,
+				848EB9452475ED6E00BD05FD /* AddCosmeticsViewController.swift */,
+			);
+			path = YuzhikApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840DB7A123EB7246009F209F /* YuzhikApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840DB7B823EB7253009F209F /* Build configuration list for PBXNativeTarget "YuzhikApp" */;
+			buildPhases = (
+				66595FAD3296E6E2A58CB5F5 /* [CP] Check Pods Manifest.lock */,
+				840DB79E23EB7246009F209F /* Sources */,
+				840DB79F23EB7246009F209F /* Frameworks */,
+				840DB7A023EB7246009F209F /* Resources */,
+				3B2CBC1A58DB40DBBD174BA2 /* [CP] Embed Pods Frameworks */,
+				8498EE212476E22900079848 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YuzhikApp;
+			productName = YuzhikApp;
+			productReference = 840DB7A223EB7246009F209F /* YuzhikApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840DB79A23EB7245009F209F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Admin\U0010\U0010";
+				TargetAttributes = {
+					840DB7A123EB7246009F209F = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 840DB79D23EB7245009F209F /* Build configuration list for PBXProject "YuzhikApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840DB79923EB7245009F209F;
+			productRefGroup = 840DB7A323EB7246009F209F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840DB7A123EB7246009F209F /* YuzhikApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840DB7A023EB7246009F209F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8481474523FA1907008D8159 /* powder.mp4 in Resources */,
+				848C637223FDA703002F7EE1 /* ru_cosmetics.json in Resources */,
+				842346B5240D453500033D4D /* config.json in Resources */,
+				8498EE1C2476B22300079848 /* temp.json in Resources */,
+				840DB7B423EB7253009F209F /* LaunchScreen.storyboard in Resources */,
+				840DB7B123EB7253009F209F /* Assets.xcassets in Resources */,
+				840DB7AF23EB7246009F209F /* Main.storyboard in Resources */,
+				8481474323FA1535008D8159 /* cream.mp4 in Resources */,
+				8498EE1E2476E0F300079848 /* GoogleService-Info.plist in Resources */,
+				8481474723FA1920008D8159 /* oil.mp4 in Resources */,
+				842056CB240E6C7B00CFB4D9 /* eng_cosmetics.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B2CBC1A58DB40DBBD174BA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YuzhikApp/Pods-YuzhikApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YuzhikApp/Pods-YuzhikApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YuzhikApp/Pods-YuzhikApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66595FAD3296E6E2A58CB5F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YuzhikApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840DB79E23EB7246009F209F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848EB9462475ED6E00BD05FD /* AddCosmeticsViewController.swift in Sources */,
+				84B1275F23F89B5A00FFCCC2 /* Model.swift in Sources */,
+				840DB7AC23EB7246009F209F /* SecondViewController.swift in Sources */,
+				849983F023FCAE5A00DA515D /* FilterViewController.swift in Sources */,
+				840DB7A623EB7246009F209F /* AppDelegate.swift in Sources */,
+				84B1276323F8B9ED00FFCCC2 /* TableViewCell.swift in Sources */,
+				840DB7A823EB7246009F209F /* SceneDelegate.swift in Sources */,
+				842346B3240D42A300033D4D /* Settings.swift in Sources */,
+				84B1275D23F89AED00FFCCC2 /* TableViewController.swift in Sources */,
+				8481474123F9A8B5008D8159 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		840DB7AD23EB7246009F209F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840DB7AE23EB7246009F209F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		840DB7B223EB7253009F209F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840DB7B323EB7253009F209F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840DB7B623EB7253009F209F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		840DB7B723EB7253009F209F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840DB7B923EB7253009F209F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F1BD9511C9CF23A65A8AC8 /* Pods-YuzhikApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YuzhikApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BSUIR.YuzhikApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840DB7BA23EB7253009F209F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD43E60CE25EEAA2822C53C6 /* Pods-YuzhikApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YuzhikApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BSUIR.YuzhikApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840DB79D23EB7245009F209F /* Build configuration list for PBXProject "YuzhikApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840DB7B623EB7253009F209F /* Debug */,
+				840DB7B723EB7253009F209F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840DB7B823EB7253009F209F /* Build configuration list for PBXNativeTarget "YuzhikApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840DB7B923EB7253009F209F /* Debug */,
+				840DB7BA23EB7253009F209F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840DB79A23EB7245009F209F /* Project object */;
+}
